@@ -1,7 +1,7 @@
 import "./Card.scss";
 
 const Card = (props) => {
-  const{title,desc,image} = props
+  const{title,desc,img} = props
   return (
     <div className="cards">
 
@@ -9,8 +9,8 @@ const Card = (props) => {
         <h1 >{title}</h1>
       </div>
       
-      <img src={image} alt="" />
-      
+      <img src={img} alt="" />
+
       <div className="card-over">
         <p>{desc}</p>
       </div>

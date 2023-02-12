@@ -1,7 +1,7 @@
 @import "../../sass/variables";
 .cards{
 
-background-color: $gul4;
+background-color: $sarı3;
 margin: 1rem;
 padding: 1rem;
 border-radius: 20px;
@@ -16,12 +16,7 @@ overflow: hidden;
 font-size: 1rem;
 padding: 1rem;
 transition: ease-in-out 0.5s;
-&:hover{
-    transform: scale(1.2);
-    font-weight: 700;
-    // color:$gul4 ;
-    cursor: pointer;
- }
+color: $turuncu2;
 
 
 }
@@ -30,6 +25,7 @@ img{
     width: 500px;
     height: 350px;
     object-fit: cover;
+    border-radius: 50%;
 filter: grayscale(0);
 &:hover{
     filter: grayscale(100);

@@ -1,6 +1,6 @@
 @import "../../sass/variables","../../sass/mixin";
 .navbar{
-    background-color: $toprak;
+    background-color: $turuncu1;
     padding: 2rem;
     display: flex;
     justify-content: space-evenly;
@@ -10,12 +10,12 @@
         font-size: 1.5rem;
         border-radius: 10px;
         font-weight: 600;
-        color: $gul1;
+        color: $sarı1;
         transition: ease-in-out 0.5s;
 
         &:hover{
-            background-color: $gul1;
-            color: $toprak;
+            background-color: $sarı1;
+            color: $turuncu1;
             transform: scale(1.1);
             font-size: 1.6rem;
             font-weight: 700;

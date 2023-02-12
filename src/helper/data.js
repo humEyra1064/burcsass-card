@@ -1,94 +1,69 @@
 export const data = [
-    {
-      id: 1,
-      title: "New York",
-      desc:
-        "Home to the Statue of Liberty, Empire State Building, Central Park, Times Square, New York is the most populous city in the USA. We have a lot to tell about the city where city lights illuminate the sky.",
-      image:
-        "https://cdn.pixabay.com/photo/2017/06/07/15/47/new-york-city-2380683_960_720.jpg",
-    },
-    {
-      id: 2,
-      title: "Philippines",
-      desc:
-        "The island country, the Philippines, is one of the most beautiful countries where blue and green are together. Forget the potion of youth, traveling to the Philippines will rejuvenate you for at least 5 years.",
-      image:
-        "https://bigseventravel.com/wp-content/uploads/2019/11/john-hernandez-IL-fBBnF-GU-unsplash-1920x1440.jpg",
-    },
-    {
-      id: 3,
-      title: "Bali",
-      desc:
-        "Bali, Indonesia's most famous island, has taken its place as the 'last paradise' in mind. Providing 80% of its livelihood with tourism, Bali hosts thousands of tourists every year.",
-      image: "https://ak.picdn.net/shutterstock/videos/26368511/thumb/1.jpg",
-    },
-    {
-      id: 4,
-      title: "Egypt",
-      desc:
-        "Being one of the biggest countries of the Middle East, Egypt has been the transition point of many civilizations with its thousands of years of history. The pyramids and miracles that come to mind when talking about Egypt have been the subject of many films. It still remains a mystery.",
-      image:
-        "https://images.memphistours.com/large/34d5b5a3fbaa4b3b5d9487bf924b0145.jpg",
-    },
-    {
-      id: 5,
-      title: "Cappadocia",
-      desc:
-        "Cappadocia… 'Kappa Tuchia', which means 'Land of Beautiful Horses' in the words of Persians. A location in Turkey and in the center of Anatolia's most popular and unique tourist centers of someone who Cappadocia, magnificent nature, valleys of unique beauty, fairy chimneys, rock-hewn settlements, millions every year with open-air museums and underground cities, local and hosts foreign tourists.",
-      image: "https://i.hurimg.com/i/hdn/75/0x0/5aa10544d3806c25541af273.jpg",
-    },
-    {
-      id: 6,
-      title: "Paris",
-      desc:
-        "Paris has been recognized as one of the most romantic cities in the world. Many famous buildings here have been added to the Unesco World Heritage List. It awaits you with its museums, fashion and historical buildings.",
-      image:
-        "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221130827/iStock-155381519.jpg",
-    },
-    {
-      id: 7,
-      title: "Venice",
-      desc:
-        "Venice, one of Italy's indispensable stops, is known as the 'City of Channels', 'City of Waters' or 'City of Masks' thanks to its world-famous masks. If you visit in February, you can catch the Venice Carnival, where everyone wears a mask and has fun.",
-      image:
-        "https://www.qantas.com/content/travelinsider/en/explore/europe/italy/venice/things-you-need-to-know-before-you-go-to-venice/_jcr_content/parsysTop/hero.img.full.medium.jpg/1535006246068.jpg",
-    },
-    {
-      id: 8,
-      title: "India",
-      desc:
-        "If you are not a vacationer but a traveler, we can say that India is the place for you. India, one of the most colorful places in the world, has a crazy variety. The Taj Mahal, the story of which you have heard more or less, is one of its famous buildings.",
-      image: "https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg",
-    },
-    {
-      id: 9,
-      title: "Northern Lights",
-      desc:
-        "Northern lights, the 'Aurora Borealis', named after the Dawn Goddess Aurora, are the natural glows that emerge in the sky with the interaction of the earth's magnetic field and charged particles from the Sun. This image, which makes most of us feel like in a fairy tale land, deserves to be visited at least once in a lifetime.",
-      image:
-        "https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
-    },
-    {
-      id: 10,
-      title: "Fuji Mountain",
-      desc:
-        "The symbol and highest mountain of Japan, Mount Fuji is considered sacred by the Japanese and is called Fuji-San. This mountain, which has an active startovolcano, is depicted in art and photography and is a natural wonder visited by athletes and tourists.",
-      image:
-        "https://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/038/943/original/pixta_43064884_S.jpg?2019&d=750x400",
-    },
-    {
-      id: 11,
-      title: "Arashiyama Bamboo Grove",
-      desc:
-        "Bamboo Forest, or Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan.",
-      image: "https://wallpaperaccess.com/full/534182.jpg",
-    },
-    {
-      id: 12,
-      title: "Antelope Canyon",
-      desc:
-        "Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It includes two separate, scenic slot canyon sections, referred to as Upper Antelope Canyon (or The Crack), and Lower Antelope Canyon (or The Corkscrew).",
-      image:
-        "https://images.unsplash.com/photo-1444076784383-69ff7bae1b0a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvd2VyJTIwYW50ZWxvcGUlMjBjYW55b258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    },
-  ];
+  {
+      img:"https://img3.aksam.com.tr/imgsdisk/2021/04/30/t25_koc-burcu-insani-ozellikl-837.jpg"
+
+
+      ,
+      title: "Koç Burcu/ 21 Mart- 20 Nisan",
+      desc: "Evet koç burucun en bilinen özelliği 'egoistlik 'özelliğidir.Bunun yanında cesaretli ve önderlik özellikleri de oldukça fazladır. Duygusal olmayan bu burcun insanlar kolay bir şekilde yaşam sürerler.Bu burcun etkisi altında doğan kişiler yaşamayı seven, coşkulu, girişken yapıya sahiptir. Yeni şeyleri öğrenmeye karşı çok heveslidirler. Yaratıcı bir meraka sahiptirler. İlgilendikleri konuda üretken oldukları kadar yaptıklarının başkaları tarafından onaylanması da onlar için önem taşır.Heyecanlı yapıları yüzünden çabuk hareket eden, pratik tiplerdir. En zor koşullara bile katlanabilen savaşçı nitelikleri vardır. İstediklerini elde edemezler ya da yanlış anlaşılırlarsa kolayca öfkelenebilirler. Ancak öfkeleri saman alevi gibi çabuk geçer. Kin tutmazlar ve hatalarını anladıkları zaman kalpleri kazanmak için her şeylerini verebilirler.",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/12/boga-burcu-ve-dogal-taslari-.jpeg-1132x800.jpg"
+      ,
+      title: "Boğa Burcu /21 Nisan 21 Mayıs",
+      desc: "Boğa burcu tüm burçlar arasında en azimli, ' en katı ve en inatçı burçtur. ' Tuttuğunu koparan bu burç yapması gereken şeyler yapmakta zorlanır.Boğa ilişkilerinde güvenlik ve sağlamlık arar. Uzun vadeli düşünür ve sadakata inanır. Yatıştırıcı, huzur verici bir yapısı vardır. Ancak aynı zamanda sahip olmacıdır ve güvensiz hissederse güçlü bir kıskançlık sergileyebilir. Yapıcı ve kararlı olması ona ilişkilerinde uzun vadeli, kazançlı sonuçlar getirir.Kararlı ve güven vericidir. Zevk sahibi olması, barışa ve uyuma önem vermesi en iyi özellikleridir.  Fiziksel açıdan güçlüdür. Verimli ve ortaklaşa çalışmalarda yaratıcıdır.Ancak Boğa’nın  İnatçılığı ve akılsızca direnişi zayıf yönüdür. Bu durum kıskançlık söz konusu olduğunda ilişkilerde kilitlenme yaratabilir. Yeteri kadar yaratıcı ve esnek düşünemeyebilir. Daha fazla esnekliğe ve hayal gücüne ihtiyacı vardır. Sabitliği yüzünden kendini geliştirmekte zorlanabilir.",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2021/01/ikizler-burcu-ozellikleri-ve-dogal-taslari-1132x800.jpg",
+      title: "İkizler Burcu /22 Mayıs 22 Haziran",
+      desc: "En bilinen özellikleri: Bulunduğu ortama ayak uydurur, ' konuşkan ve dinamik ' bir ruha sahiptir.İkizle burçları çok yönlü ve renkli bir kişiliğe sahiptir. Öğrenmek onun için nefes almak gibidir. Durağanlığa dayanamaz, kolay sıkılır. Çabuk düşünür ve çabuk hareket ederler. Hemen her konuda bilgi sahibi olmayı severler. Bir konuda bilgileri az bile olsa, bilgiyi ortaya koyuşlarında ki ustalıkları sayesinde çok iyi biliyormuş gibi görünebilirler. Konuşmada ve kelimeleri sıralamada ustalıkları sebebiyle etkileyici konuşmacılardır.İkna yeteneğine sahip olduğu gibi çok esprilidir. Hazırcevap ve muziptir, eğlendiricidir.",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/06/yenge%C3%A7-burcu.jpeg-1133x800.jpg",
+      title: "Yengeç Burcu /23 Haziran 22 Temmuz",
+      desc: "Yengeç burcun insanı burçların arasında en anaç sıcakkanlı olan burçtur. 'Dikkatli ve sevecen '' olan bu burç sevdiğini sahiplenir.Yengeç burçları çocuk gibi yumuşak, duygusal açıdan besleyen ve beslenen bir yapıdadır. Duygularla hareket eder ve sevdiklerini çok korur, onlara kalbinde özel bir yer açar. Son derece koruyucudur.Duygusal durumu sürekli değişim içinde olduğu için kolayca depresif olabilir, kendini olumsuz duygulardan kurtarması ve güven kazanması uzun zaman alacaktır. Dışarı karşı sert bir görünüm sergileseler de, hassas ve koruyucu bir doğaları vardır. Çok yumuşak ve iyi kalplilerdir. Ama kırılgan doğalarını korumak için burçlarının simgesi gibi kabuklarına çekilebilirler. Anlaşılması zor karmaşık insanlardır. Zor duruma düştüklerinde bazen çok güçlü ve cesur, bazense çocuk gibi zayıf ve savunmasız olabilirler. Dengede kalabilmeleri için onlara mutlu bir yuva ve güvenlik gereklidir.",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/07/aslan-burcu-ve-do%C4%9Fal-ta%C5%9Flar%C4%B1-.jpeg.jpg",
+      title: "Aslan Burcu /23 Temmuz 22 Ağustos",
+      desc: "Her şeye karışan, sıcak kanlı, yetenekli olan bu burcun insanı oldukça 'sabırsızdır.Aslan burçları yüce gönüllü ve öne çıkan karakterleri ile diğer burçlardan ayrılırlar. Yönetmeyi ve her zaman odak noktası olmayı severler. Bazen ise bir çocuk gibi oyuncu ve hayatı seven ve bunu yansıtan bir karakteri vardır.Başkalarına ilham veren, etkileyici, iyimser, güleryüzlü, hareketli, güneş gibi çevresine ışık saçan sıcak tiplerdir. Mücadele ederken her zaman dürüst ve mertçe davranır, kurnazlık düşünmezler. Bağışlayıcı olmalarına karşın bazen aşırı gururlarının etkisi altında kalabilirler.Lükse ve ihtişama düşkündürler. Aşırı gururları bazen kendilerini olduklarında daha yüksekte görmelerine de sebep olabilir. Buna karşın affedici yönleri vardır. Güçsüz ya da zor durumda kalmış yardıma ihtiyacı olan kişilere karşı iyi davranırlar. Eli açık ve bonkördürler. '",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/08/ba%C5%9Fak-burcu-ve-do%C4%9Fal-ta%C5%9Flar-.jpeg.jpg",
+      title: "Başak Burcu /23 Ağustos 22 Eylül",
+      desc: "Her şeyi kafasına takan bu burcun insanı; ' titiz, zeki ' ve her zaman her şeyin en iyisini isterBaşak burçları çalışkan, düzenli ve pratik insanlardır. Düzen, sistem ve organizasyon onlar için çok önemlidir. Organizasyon konusunda onların üstüne yoktur. Ayrıntılara dikkat ederler. Mükemmeliyetçi bir yapıları olduğu gibi, bazen bu sebeple çevrelerine karşı aşırı eleştirici de davranabilirler. Sağlıklarına oldukça düşkündürler. Sadece fiziken değil, mental ya da ruhsal yönden de sağlıklı olmak isterler. Çoğu Başak burcu doğal ilaçlara, sebzelere ve bitkisel tedavilere ilgi duyar. Araştırmacı ve öğrenmeyi seven bir yapıları vardır. Çoğunlukla gerçekçi ve elle tutulur sonuçlara güvenirler. Sorgulayıcı ve inceleyicidir. Aslında bilgiyi arayan başak burçları için bu sorgulayıcılık bazen tutuculuğa dönüşerek önlerinde bir engel oluşturabilir.Çevrelerinde temizliğe ve hijyene önem verirler..",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/11/terazi-burcu-ve-dogal-taslar-.jpeg.jpg",
+      title: "Terazi Burcu/ 23 Eylül 23 Ekim",
+      desc: "Terazi Burcu Başkaların sözüne uyan kararlarını hemen değiştirebilen bu burcun insanı 'ağır başlı ' ve 'diplomatik ' bir yapısı vardır. Terazi burcu denge ve adalet burcu olarak bilinir. Teraziler çevrelerinde uyum ve barışçıl bir atmosfer yaratma konusunda yeteneklidirler. İlişkilerinden olumlu bir sonuç çıkarabileceklerine inanırlar. Adalet duyguları fazlasıyla gelişmiş olduğu için haksızlıklara dayanamazlar ve bu yolda hemen tepki verebilirler. Bu burçtan pek çok sosyal alanda eylemci ya da hukukçu çıkar. Terazilerde çevrelerin güzellik yaratma kabiliyeti vardır. Aynı zamanda sanat ve güzellik duygusu hayatlarında önemli bir yer tutar. Adeta dokundukları her şeye rafine bir güzellik ve uyum getirebilirler. Dekorasyonda yeteneklidirler.Terazi burcu kendisinden önce başkalarına odaklanabilen bir burçtur. İşbirliğine, ortaklıklara her zaman açık durabilirler. İdeal eşler ve ortaklardır. Yalnız kalmak onlara göre değildir.",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/10/akrep-burcu-ve-dogal-taslari-.jpeg-1132x800.jpg",
+      title: "Akrep Burcu/24 Ekim 22 Kasım",
+      desc: "Akrep burcu aşırı uçları yaşayabilen çözümlenmesi zor bir burçtur. Bu burcun insanı fiziksel olduğu kadar derin bir içsel güce sahiptir. Akrep insanı yüksek bir kişisel çekim, derinlik ve güç sahibi olma arzusu taşır. Ayrıca sınırları da zorlayan bir burçtur. Her koşulda kendini yenileme gücüne sahiptir. Tehlikeli ya da zor koşullarda bile hedefinden şaşmadan kararlılıkla iç ve dış mücadelesini sürdürebilir. İşlerini tek başına yapmaktan hoşlanırlar, yalnızlık onları hiç sıkmaz. Sabırlı ve özenli çalışırlar ve bitmez bir enerjileri vardır. Sezgileri güçlüdür. Bir insan ya da bir olayı bir bakışta derinlemesine kavrayabilirler. Kimi zaman düşüncelerini patavatsız şekilde söyleyerek kırıcı olabilirler. Öfkelendiklerinde acı konuşurlar ve karşılarındakinin hiç aklına gelmeyen zayıf yanlarını bir çırpıda döküverirler. İnsanlarla ilişkilerinde sahiplenici ve ele geçirici olabilirler.  ",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/12/yay-burcu-ozellikleri-ve-dogal-taslari-.jpeg.jpg",
+      title: "Yay Burcu/ 23 Kasım 21 Aralık",
+      desc: "Özgürlüğü seven, ' komik ' ve 'dürüst ' olan bu burcun insanı dikkatsiz ve oldukça batıl inançlara inanır.Yay burcu iyimserlik ve yeniliklere açıklıkları ile tanınırlar. Yaşama karşı coşkulu ve idealist kişilerdir. Kavrayışları güçlü olduğu için felsefi konularda başarılı olurlar. Gezmeyi, seyahati, farklı yerler görüp farklı kültürler tanımayı çok severler. Yerlerinde duramayan değişiklik yapmayı seven tiplerdir. Yay aynı zamanda değişken bir burçtur ve bu değişkenlikleri onlara davranışlarında tutarsızlık getirebilir. Kolayca karasızlık yaşayabilirler. Çoğunlukla idealist yapıda oldukları için öğrenmeye, öğrendiklerini pratik etmeye ve kendilerini geliştirmeye çalışırlar. Ancak çok kolayca sıkılıp yeni bir yol izlemeye de başlayabilirler. Yay burcu arayış içinde bir burçtur. Gerçeği, bilgiyi ve bilgeliği ararlar. Güçlü bir doğru- yanlış anlayışları vardır. Hayatlarında bu doğrulara uygun yaşamaya çalışan adil, ahlaklı ve erdemli kişiler yaylardan çıkar. ",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/11/oglak-burcu-ve-dogal-taslari-.jpeg.png",
+      title:"Oğlak Burcu /22 Aralık 20 Ocak",
+      desc: "Kıskançlığıyla bilinen bu burcun insanı; ' komik, dikkatli, sıcakkanlı ve azimlidir. Oğlak burçları ciddi, güvenilir, sorumluluk sahibi olmaları ve yılmadan çalışmaları ile tanınırlar. Gelişmiş bir görev duyguları vardır. Çok genç yaştan itibaren omuzlarına sorumluluk yüklenmeye ve çalışmaya başlayabilirler. Ancak çok iyi birer iş adamı-kadını olabilirler. Yöneticilik yetenekleri çok gelişmiştir. Oğlaklar çok disiplinlidir. Hedeflerine ulaşmak için yılmadan çalışırlar. Kolay kolay gevşeyemeyen bir yapıları vardır. Kolayca güvensizliğe, karamsarlığa kapılabilirler. Genellikle çok genç yaşlarında başlayan yetişkin hayatları sebebiyle somurtkan ve ciddi tiplerdir. Ancak oğlaklar yaşları ilerledikçe çocuklaşırlar. Fiziksel görünümleri, yaşlansalar dahi genç kaldığı gibi, edindikleri deneyimlerin ışığında yaşlandıkça bilgeleşerek çocuklar gibi sadeleşebilirler. Genellikle duygularını göstermeyen, derinlerde yaşayan insanlardır. '",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2020/10/kova-burcu-ana-gorsel-.jpeg.jpg",
+      title: "Kova Burcu/ 21 Ocak 18 Şubat",
+      desc: "Tek başına hareket etmeyi seven bu burcun insanı 'orijinal, yetenekli ve duygusuzdur.'Kova burçları hümanist, insanlık için çalışmalar yapan, toplumsal meselelerle ilgilenen ve aynı zamanda yenilikçi ve idealist kişilerdir. Akılcı oldukları için sadece hayal kurmakla kalmaz ideallerini gerçeğe dönüştürmek için organizasyonların içinde olmayı tercih ederler. Kollektif olan herşeyi severler. Yenilik ve değişiklikten yanadırlar. Dünyanın daha iyi bir olaması için çalışırlar.Hem kişisel hemde kollektif özgürlüklere çok değer verirler. Ancak kova sabit bir burç olduğu için her nekadar modernizmi savunsalarda kendi görüşlerini kolay değiştirmeyen inatçı ve sabit fikirli davranışlarda bulunabilirler. Genellikle görüşleri çağının ötesinde ve sezgiseldir. Hayata bilim adamı gibi yaklaşmayı ve objektif bakmayı severler. Bu yüzden kovalarla yakınlaşmak kolay değildir. Her şeye rağmen insanlarla aralarına mesafe koymayı severler. ",        
+  },
+  {
+      img: "https://soulmeps.com/wp-content/uploads/2021/01/balik-burcu-ozellikleri-ve-faydali-dogal-taslari-.jpeg.jpg",
+      title: "Balık Burcu/ 19 Şubat 20 Mart",
+      desc: "Burçlar arasında en duygusal olan bu burcun insanı azimli ' kıskanç ve gizemlidir. 'Balık insanı son derece merhametli, uysal ve vicdan sahibi olması ile tanınır. Çok duyarlı olan bu burç insanı dış etkenlerden çok kolayca etkilenebilir ve incinebilir. Hayal gücü çok gelişmiş olması nedeniyle sık sık hayal dünyalarına sığınabilirler. Bu şekilde gerçeklerden kaçma eğilimi taşırlar.Sevimli ve fedakar yapıdadır. İyi kalpli ve merhametli olması sebebiyle balık burçları sık sık zorda kalmış, kendinden daha kötü durumda olan, yardıma nuhtaç kişilere yardım etmeye çalışır. Çok hassas ve sezgileri gelişmiş ve diğer insanların da duygularına karşı empati yeteneği çok gelişmiş bir burçtur balık. Dış görünüş olarak ve davranışları ile sanki bu dünyadan değilmiş gibi bir izlenim verirler. Mücadeleci olmayan kişilikleri ile tartışmalardan hep uzak durmayı tercih ederler. Affedici ve huzura önem veren kişilerdir. ",        
+  },
+
+
+]
+
