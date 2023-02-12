@@ -16,7 +16,7 @@ export const data = [
   {
       img: "https://soulmeps.com/wp-content/uploads/2021/01/ikizler-burcu-ozellikleri-ve-dogal-taslari-1132x800.jpg",
       title: "İkizler Burcu /22 Mayıs 22 Haziran",
-      desc: "En bilinen özellikleri: Bulunduğu ortama ayak uydurur, ' konuşkan ve dinamik ' bir ruha sahiptir.İkizle burçları çok yönlü ve renkli bir kişiliğe sahiptir. Öğrenmek onun için nefes almak gibidir. Durağanlığa dayanamaz, kolay sıkılır. Çabuk düşünür ve çabuk hareket ederler. Hemen her konuda bilgi sahibi olmayı severler. Bir konuda bilgileri az bile olsa, bilgiyi ortaya koyuşlarında ki ustalıkları sayesinde çok iyi biliyormuş gibi görünebilirler. Konuşmada ve kelimeleri sıralamada ustalıkları sebebiyle etkileyici konuşmacılardır.İkna yeteneğine sahip olduğu gibi çok esprilidir. Hazırcevap ve muziptir, eğlendiricidir.",        
+      desc: "En bilinen özellikleri: Bulunduğu ortama ayak uydurur, ' konuşkan ve dinamik ' bir ruha sahiptir.İkizle burçları çok yönlü ve renkli bir kişiliğe sahiptir. Öğrenmek onun için nefes almak gibidir. Durağanlığa dayanamaz, kolay sıkılır. Çabuk düşünür ve çabuk hareket ederler. Hemen her konuda bilgi sahibi olmayı severler. Bir konuda bilgileri az bile olsa, bilgiyi ortaya koyuşlarında ki ustalıkları sayesinde çok iyi biliyormuş gibi görünebilirler. Konuşmada ve kelimeleri sıralamada ustalıkları sebebiyle etkileyici konuşmacılardır.İkna yeteneğine sahip olduğu gibi çok esprilidir. Hazırcevap ve muziptir, eğlendiricidir.İkizler burcunun motivasyonu hiçbir zaman daha fazla para değil, aksine daha fazla arkadaş edinmek ve muhabbet edebilmektir.",        
   },
   {
       img: "https://soulmeps.com/wp-content/uploads/2020/06/yenge%C3%A7-burcu.jpeg-1133x800.jpg",
