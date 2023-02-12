@@ -1,9 +1,27 @@
 @import "../../sass/variables";
 .cards{
 
-
+background-color: $gul4;
+margin: 1rem;
+padding: 1rem;
+border-radius: 20px;
+box-shadow: 3px 3px 5px rgba(0,0,0,0.7);
+position: relative;
+overflow: hidden;
+&:hover .card-over{
+    transform: translateY(0%);
+}
 
 .title{
+font-size: 1rem;
+padding: 1rem;
+transition: ease-in-out 0.5s;
+&:hover{
+    transform: scale(1.2);
+    font-weight: 700;
+    // color:$gul4 ;
+    cursor: pointer;
+ }
 
 
 }
@@ -18,9 +36,18 @@ filter: grayscale(0);
 }
 
 }
-.desc{
+.card-over{
 
-
+    color:$gul1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.5rem;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+    transform: translateY(100%);
+    z-index: 1;
+    transition: transform 0.7s ease-in-out;
 
 
 }
